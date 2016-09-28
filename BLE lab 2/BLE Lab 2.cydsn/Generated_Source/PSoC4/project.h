@@ -32,6 +32,7 @@
 #include <BLE_1_StackGattDb.h>
 #include <BLE_1_StackHostMain.h>
 #include <BLE_1_StackL2cap.h>
+#include <BLE_1_dis.h>
 #include <BLE_1_StackGattServer.h>
 #include <BLE_1_StackGattClient.h>
 #include <BLE_1_Stack.h>

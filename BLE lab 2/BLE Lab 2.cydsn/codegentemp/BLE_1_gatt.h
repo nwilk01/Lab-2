@@ -34,7 +34,7 @@ the software package with which this file was provided.
 
 #if(CYBLE_GATT_ROLE_SERVER)
 
-#define CYBLE_GATT_DB_INDEX_COUNT                    (0x000Eu)
+#define CYBLE_GATT_DB_INDEX_COUNT                    (0x0021u)
 #define CYBLE_GATT_DB_CCCD_COUNT                     (0x02u)
 #define CYBLE_GATT_DB_MAX_VALUE_LEN                  (0x000Cu)
 
@@ -42,6 +42,8 @@ the software package with which this file was provided.
 
 #define CYBLE_IAS
 #define CYBLE_IAS_SERVER
+#define CYBLE_DIS
+#define CYBLE_DIS_SERVER
 
 /***************************************
 ##Common constants for LLS and IAS services

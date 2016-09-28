@@ -32,7 +32,7 @@ CYBLE_STATE_T cyBle_state;
     0x000Bu,    /* Handle of the Client Characteristic Configuration descriptor */
 };
     
-    static uint8 cyBle_attValues[0x1Bu] = {
+    static uint8 cyBle_attValues[0x2Bu] = {
 /* Device Name */
 (uint8)'W', (uint8)'i', (uint8)'l', (uint8)'k', (uint8)'_', (uint8)'J', (uint8)'a', (uint8)'m', (uint8)'i', (uint8)'c',
 (uint8)'k', (uint8)'y', 
@@ -48,6 +48,33 @@ CYBLE_STATE_T cyBle_state;
 
 /* Alert Level */
 0x00u, 
+
+/* Manufacturer Name String */
+
+
+/* Model Number String */
+
+
+/* Serial Number String */
+
+
+/* Hardware Revision String */
+
+
+/* Firmware Revision String */
+
+
+/* Software Revision String */
+
+
+/* System ID */
+0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
+
+/* IEEE 11073-20601 Regulatory Certification Data List */
+0x00u, 
+
+/* PnP ID */
+0x01u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
 
 };
 
@@ -86,7 +113,7 @@ const uint8 cyBle_attValuesCCCDFlashMemory[CYBLE_GAP_MAX_BONDED_DEVICE + 1u][CYB
 };
 uint8 cyBle_attValuesCCCD[CYBLE_GATT_DB_CCCD_COUNT];
 
-const CYBLE_GATTS_DB_T cyBle_gattDB[0x0Eu] = {
+const CYBLE_GATTS_DB_T cyBle_gattDB[0x21u] = {
 { 0x0001u, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x0007u, {{0x1800u, NULL}}                           },
 { 0x0002u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0003u, {{0x2A00u, NULL}}                           },
 { 0x0003u, 0x2A00u /* Device Name                         */, 0x00000201u /* rd     */, 0x0003u, {{0x000Cu, (void *)&cyBle_attValues[0]}}    },
@@ -101,6 +128,25 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x0Eu] = {
 { 0x000Cu, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x000Eu, {{0x1802u, NULL}}                           },
 { 0x000Du, 0x2803u /* Characteristic                      */, 0x00000401u /* wwr    */, 0x000Eu, {{0x2A06u, NULL}}                           },
 { 0x000Eu, 0x2A06u /* Alert Level                         */, 0x00000402u /* wwr    */, 0x000Eu, {{0x0001u, (void *)&cyBle_attValues[26]}}   },
+{ 0x000Fu, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x0021u, {{0x180Au, NULL}}                           },
+{ 0x0010u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0011u, {{0x2A29u, NULL}}                           },
+{ 0x0011u, 0x2A29u /* Manufacturer Name String            */, 0x00000201u /* rd     */, 0x0011u, {{0x0000u, NULL}}                           },
+{ 0x0012u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0013u, {{0x2A24u, NULL}}                           },
+{ 0x0013u, 0x2A24u /* Model Number String                 */, 0x00000201u /* rd     */, 0x0013u, {{0x0000u, NULL}}                           },
+{ 0x0014u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0015u, {{0x2A25u, NULL}}                           },
+{ 0x0015u, 0x2A25u /* Serial Number String                */, 0x00000201u /* rd     */, 0x0015u, {{0x0000u, NULL}}                           },
+{ 0x0016u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0017u, {{0x2A27u, NULL}}                           },
+{ 0x0017u, 0x2A27u /* Hardware Revision String            */, 0x00000201u /* rd     */, 0x0017u, {{0x0000u, NULL}}                           },
+{ 0x0018u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0019u, {{0x2A26u, NULL}}                           },
+{ 0x0019u, 0x2A26u /* Firmware Revision String            */, 0x00000201u /* rd     */, 0x0019u, {{0x0000u, NULL}}                           },
+{ 0x001Au, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x001Bu, {{0x2A28u, NULL}}                           },
+{ 0x001Bu, 0x2A28u /* Software Revision String            */, 0x00000201u /* rd     */, 0x001Bu, {{0x0000u, NULL}}                           },
+{ 0x001Cu, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x001Du, {{0x2A23u, NULL}}                           },
+{ 0x001Du, 0x2A23u /* System ID                           */, 0x00000201u /* rd     */, 0x001Du, {{0x0008u, (void *)&cyBle_attValues[27]}}   },
+{ 0x001Eu, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x001Fu, {{0x2A2Au, NULL}}                           },
+{ 0x001Fu, 0x2A2Au /* IEEE 11073-20601 Regulatory Certifi */, 0x00000201u /* rd     */, 0x001Fu, {{0x0001u, (void *)&cyBle_attValues[35]}}   },
+{ 0x0020u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0021u, {{0x2A50u, NULL}}                           },
+{ 0x0021u, 0x2A50u /* PnP ID                              */, 0x00000201u /* rd     */, 0x0021u, {{0x0007u, (void *)&cyBle_attValues[36]}}   },
 };
 
 

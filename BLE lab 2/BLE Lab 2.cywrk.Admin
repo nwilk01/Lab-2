@@ -27,6 +27,8 @@
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_gatt.c</v>
@@ -107,6 +109,8 @@
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_gatt.c</v>
@@ -141,8 +145,6 @@
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -169,6 +171,7 @@
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_bless_isr.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_dis.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_eventHandler.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_gatt.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_HAL_INT.lst</v>

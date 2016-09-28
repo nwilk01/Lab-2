@@ -38,6 +38,8 @@
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_StackGattDb.h" value="NONE;BLE_1" />
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_StackHostMain.h" value="NONE;BLE_1" />
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_StackL2cap.h" value="NONE;BLE_1" />
+  <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_dis.c" value="ARM_C_FILE;BLE_1" />
+  <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_dis.h" value="NONE;BLE_1" />
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_StackGattServer.h" value="NONE;BLE_1" />
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_StackGattClient.h" value="NONE;BLE_1" />
   <file name="C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\codegentemp\BLE_1_Stack.h" value="NONE;BLE_1" />
