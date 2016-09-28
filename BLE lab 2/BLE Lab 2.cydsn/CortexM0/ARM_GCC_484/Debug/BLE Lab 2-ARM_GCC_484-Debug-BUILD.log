@@ -1,4 +1,4 @@
---------------- Build Started: 09/28/2016 19:22:15 Project: BLE Lab 2, Configuration: ARM GCC 4.8.4 Debug ---------------
+--------------- Build Started: 09/28/2016 19:24:37 Project: BLE Lab 2, Configuration: ARM GCC 4.8.4 Debug ---------------
 cydsfit.exe -.appdatapath "C:\Users\Admin\AppData\Local\Cypress Semiconductor\PSoC Creator\3.1" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p "C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\BLE Lab 2.cyprj" -d CY8C4247LQI-BL483 -s "C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 HDL Generation ...
@@ -25,4 +25,4 @@ cyelftool.exe -C "C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\
 cyelftool.exe -S "C:\Users\Admin\Desktop\GitHub\Lab-2\BLE lab 2\BLE Lab 2.cydsn\CortexM0\ARM_GCC_484\Debug\BLE Lab 2.elf"
 Flash used: 69949 of 131072 bytes (53.4 %).
 SRAM used: 11564 of 16384 bytes (70.6 %). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 09/28/2016 19:22:21 ---------------
+--------------- Build Succeeded: 09/28/2016 19:24:43 ---------------
